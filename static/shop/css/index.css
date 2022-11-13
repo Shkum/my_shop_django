@@ -1,0 +1,62 @@
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+.testclass {
+    color: blue;
+}
+h3 {
+    text-align: center;
+    color: green;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+
+
+input[type=text], input[type=email] {
+    width: auto;
+    padding: 12px 20px;
+    margin : 0 auto;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+label {
+    font-size: 30px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #005cbf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #007bff}
+
+button:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h3 {
+    font-size: 20px;
+}
+div form {
+    text-align: center;
+
+}

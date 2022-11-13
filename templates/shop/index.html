@@ -1,0 +1,36 @@
+{% extends 'shop/base.html' %}
+
+{%  load static %}
+
+{% block title %} Info about movie {{ movie.name }} {% endblock title %}
+
+{% block css %}
+    <link rel="stylesheet" href={% static 'shop/css/bootstrap.css' %}>
+    <link rel="stylesheet" href={% static 'shop/css/index.css' %}>
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 offset-4">
+<h2>{{ a }}</h2>
+<h2 class="testclass">{{ today }}<br><h3>Both h2, but class add different css</h3></h2>
+    <br>
+    <br>
+
+            <h1 class="title">Our shop will open soon </h1>
+            <h1 class="title">Leave your email in the form below: </h1>
+            <br>
+
+            <form class="" action="" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Send</button>
+            </form>
+
+</div>
+    </div>
+    </div>
+
+{% endblock %}
